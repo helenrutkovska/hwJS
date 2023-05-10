@@ -7,8 +7,8 @@ class Animal {
   
     constructor(name) {
       this.name = name;
-      this.satiety = 50; // начальный уровень сытости
-      this.haveFood = false; // изначально нет еды
+      this.satiety = 50; 
+      this.haveFood = false; 
     }
   
     run(distance) {
