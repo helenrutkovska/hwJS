@@ -48,4 +48,41 @@ class Car {
 
 
 //Task 2
+class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  
+    whatsYourName() {
+      console.log(`My name is ${this.name}.`);
+    }
+  }
+  
+  const person1 = new Person("Harry");
+  const person2 = new Person("Elizabeth");
+  const person3 = new Person("Andrew");
+  const person4 = new Person("Mona");
+  
+  person1.whatsYourName(); 
+  person3.whatsYourName(); 
 
+//Task 3
+  
+class CarDetails {
+    constructor(doors, steering) {
+      this.doors = doors;
+      this.steering = steering;
+    }
+    
+    shareCarDetails() {
+      console.log(`This car has ${this.doors} doors and this is ${this.steering}-hand drive car.`);
+    }
+  }
+  
+  const car1 = new CarDetails(4, "left");
+  const car2 = new CarDetails(2, "right");
+  const car3 = new CarDetails(5, "right");
+  const car4 = new CarDetails(4, "left");
+  
+  car1.shareCarDetails(); 
+  car3.shareCarDetails();  
